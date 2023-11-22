@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import mongoose from 'mongoose';
+import mongoose, { ConnectOptions } from 'mongoose';
 
 import { AdminRoute, VendorRoute } from './routes';
 import { MONGO_URI } from './config';
@@ -22,7 +22,7 @@ mongoose.connect(
     //     useNewUrlParser: true,
     //     useUnifiedtTopology: true,
     //     useCreateIndex: true
-    // }
+    // } as ConnectOptions
 ).then(result => {
     console.log('DB connected')
 }).catch(err => console.log('err' + err))

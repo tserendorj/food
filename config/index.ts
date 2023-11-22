@@ -1,1 +1,3 @@
-export const MONGO_URI = 'mongodb+srv://nbfitest:<password>@cluster0.wx3kxu6.mongodb.net/?retryWrites=true&w=majority';
+export const MONGO_URI = 'mongodb+srv://nbfi:GKuiQUzsadC1hcGC@cluster0.btcomtu.mongodb.net/?retryWrites=true&w=majority'
+
+// GKuiQUzsadC1hcGC
