@@ -172,3 +172,16 @@ export const GetFoods = async (req: Request, res: Response, next: NextFunction) 
     return res.json({"message": "Foods Not Found"})
 
 }
+
+export const GetCurrentOrders = async (req: Request, res: Response, next: NextFunction) => {
+
+}
+
+export const GetOrderDetails = async (req: Request, res: Response, next: NextFunction) => {
+
+}
+
+export const ProcessOrder = async (req: Request, res: Response, next: NextFunction) => {
+
+}
+
